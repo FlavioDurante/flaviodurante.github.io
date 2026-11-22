@@ -1,0 +1,12 @@
+/* Light variant: off-white paper, green-black ink, deep teal accent. */
+:root {
+  color-scheme: light;
+  --bg: #f3f4f2;
+  --surface: #e8eae3;
+  --ink: #12201d;
+  --ink-soft: #4a5955;
+  --accent: #0d5c61;
+  --on-accent: #f3f4f2;
+  --focus: #0d5c61;
+}
+::selection { background: var(--accent); color: var(--on-accent); }
